@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>North vs. South Mustelids</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      background-color: #000000;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #000000;
+      padding: 25px;
+    }
+    p{
+      font-family: Cambria;
+    }
+    
+  .carousel-inner img {
+      max-width:1000px; 
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+      max-height:1000px;
+
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse" role="navigation">
+  <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">North vs. South Mustelids</a>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+              <li><a href="topic1.html">Species Properties</a></li>
+              <li><a href="topic2.html">Food Sources</a></li>
+              <li><a href="topic3.html">Digestive Anatomy</a></li>
+              <li><a href="topic4.html">Energy Requirements</a></li>
+              <li><a href="topic5.html">Special Nutrients</a></li>
+              <li><a href="citations.html">Citations</a></li>
+          </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container -->
+</nav>
+
+
+<br>
+<div class="container text-center">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title"><b>Citations:</b></h3>
+        </div>
+        <div class="panel-body">
+          <div id="morris-donut-chart"></div>
+          <div class="text-center">
+            <p>1.  <b>Abramov, A., Belant, J. & Wozencraft, C. </b>(2009). Gulo gulo. The IUCN Red List of Threatened Species 2009: e.T9561A13000870. http://dx.doi.org/10.2305/IUCN.UK.2009-2.RLTS.T9561A13000870.en. Downloaded on 27 January 2016.</p>
+            <p>2.  <b>Allaby, M. </b>(2014). Mustelidae (weasels). Dictionary of Zoology (Fourth edition).       Oxford University Press</p>
+            <p>3.  <b>Allen, M.E, Oftedal, O.T., and Baer, D.J. </b>(1996). The feeding and nutrition of carnivores. Kleiman, D.G., M.E.. Allen, K.V. Thompson and S. Lumpkin (eds). Pp. 139-147. </p>
+            <p>4.  <b>Banci, V. </b>(1994). Wolverine. 5: 99-127.</p> 
+            <p>5.  <b>Blomqvist, L. </b>(2001). Management of captive wolverines Gulo gulo in Europe; studbook and guidelines to husbandry. Eur. Ass. Zoos and Aquaria. Volume 2</p>
+            <p>6.  <b>Carter, S.K. and Rosas, F.C.W. </b>(1997). Biology and conservation of the giant otter pteronura brasiliensis. Mammal. Rev. 27(1): 1-26.</p>
+            <p>7.  <b>Carter, S.K., Rosas, F.C.W., Cooper A.B., and Cordeiro-Duarte, A.C. </b>(1999). Consumption rate, food preferences and transit time of captive giant otters Pteronura brasiliensis: Implications for the study of wild populations. Aqua. Mamm. 25(2), 79-90. </p>
+            <p>8.  <b>Cumberland, R.E., Dempsey, J.A., and Forbes, G.J. </b>(2001). Should diet be based on biomass? Importance of Larger Prey to the American Marten. Wildlife Society bulletin. 29 (4): 1125-1130.</p> 
+            <p>9.  <b>Dijk, J.V., Andersen, T., May, R., Andersen, R., Andersen, R., and Landa, A. </b>(2008). Foraging strategies of wolverines within a predator guild. Can. J. Zool. 86: 966-975.</p> 
+            <p>10. <b>Dijk, J.V., Hauge, K., Landa, A., Andersen, R., and May, R. </b>(2007). Evaluating scat analysis methods to assess wolverine Gulo gulo diet. Wildlife Biology. 13(2), 62-67.</p> 
+            <p>11. <b>Duplaix, N., Evangelista, E., and Rosas, F.C.W. </b>(2015). Advances in the study of giant otter (Pteronura brasiliensis) ecology, behaviour, and conservation; a review. Latin American Journal of Aquatic Mammals. 10 (2): 75-98.</p>
+            <p>12. <b>Groenendijk, J., Duplaix, N., Marmontel, M., Van Damme, P. & Schenck, C. </b>(2015). Pteronura brasiliensis. The IUCN Red List of Threatened Species 2015: e.T18711A21938411. http://dx.doi.org/10.2305/IUCN.UK.2015-2.RLTS.T18711A21938411.en. Downloaded on 27 January 2016.</p>
+            <p>13. <b>Harvey, P.H., Pagel, M.D., and Rees, J.A.</b>(1991). Mammalian Metabolism and Life Histories. Amer. Nat. 137(4): 556-568.</p>
+            <p>14. <b>Inman, R.M., Magoun, A.J. Persson, J. and Mattison, J. </b>(2012). The wolverine’s niche: Linking reproductive chronology, caching, competition and climate. J. Mamm. 93: 634-644.</p>
+            <p>15. <b>Iversen, J.A. Basal Energy Metabolism of Mustelids. </b>(1972). J. Comp. Physiol. 81: 341-344.</p>
+            <p>16. <b>Johnson, D.D.P., Macdonald, D.W., and Dickman, A.J. </b>(2000). An analysis and review of models of the sociobiology of the Mustelidae. Mammal. Rev. 20(3): 171-196.</p>
+            <p>17. <b>Landa, A., Strand, O., Swenson, J.E., and Skogland, T. </b>(1997). Wolverines and their prey in southern Norway. Can. J. Zool. 75: 1292-1299.</p>
+            <p>18. <b>Londono, G.C. and Munoz, N.T. </b>(2006). Reproduction, behaviour and biology of the giant river otter (Pteronura brasiliensis) at Cali Zoo. Int. Zoo. Yb. 40: 360-371.</p>
+            <p>19. <b>McGready, R., Simpson, J.A., Cho, T., Dubowitz, L., Changbumrung, S., Bohm, V., Munger, R.G., Sauberlich, H.E., White, N.J. and Nosten, F. </b>(2001). Postpartum thiamine deficiency in a Karen displaced population. Am. J. Clin. Nutr. 74 (6): 808-813. </p>
+            <p>20. <b>McNab, B.K. </b>(2008). An analysis of the factors that influence the level and scaling of mammalian BMR. Comp. Biochem. Phys. 151: 5-28</p>
+            <p>21. <b>Moors, P.J. </b>(1977). Studies of Metabolism, Food Consumption and Assimilation Efficiency of a small Carnivore, the Weasel (Mustela nivalis L.). Oecologia. 27, 185-202.</p>
+            <p>22. <b>Morrison, P., Rosenmann, M., and Estes, J..A. </b>(1974) Metabolism and thermoregulation in the sea otter. Physiological Zoology. 47 (4): 218-229.</p>
+            <p>23. <b>Munoz-Garcia, A. and Williams, J.B.</b>(2005). Basal metabolic rate in carnivores is associated with diet after controlling for phylogeny. Phys. Bchem. Zool. 78(6): 1039-1056.</p>
+            <p>24. <b>Munoz-Garcia, A., and Williams, J.B. </b>(2005). Basal metabolic rate in carnivores is associated with diet after controlling for phylogeny. Phys. Bchem. Zool. 78 (6): 1039-1056.</p> 
+            <p>25. <b>Nagorsen, D.W., Morrison, K.F., and Forsberg, J.E. </b>(1988). Winter diet of Vancouver Island marten (Martes Americana). Can. J. Zool. 67: 1394-1400.</p> 
+            <p>26. <b>Pasitschuniak-Arts, M. and Lariviere, S. </b>(1995). Gulo Gulo. Am. Soc. Mamm.. 499, 1-11.</p>
+            <p>27. <b>Persson, J. </b>(2005). Female wolverine (Gulo gulo) reproduction: reproductive costs and winter food availability. Can. Journ. Zoo. 83: 1453-1459.</p>
+            <p>28. <b>Pickles, R.S.A, Groomsbridge, J.J., Zambrana Rojas, V.D., Van Damme, P., Gottelli, D., Ariani, C.V., and Jordan, W.C. </b>(2012). Genetic diversity and population structure in the endangered giant otter. Pteronura brasiliensis. Cons. Gen. 13(1): 235-245. </p>
+            <p>29. <b>Pritchard, G.T., and Robbins, C.T. </b>(1990). Digestive and metabolic efficiencies of grizzly and black bears. Can. J. Zool. 68:1645-1651. </p>
+            <p>30. <b>Rausch, R.A. and Pearson, A.M. </b>(1972). Notes on the wolverine in Alaska and the Yukon Territory.  2(36), 249-268. </p>
+            <p>31. <b>Robitaille, J.F., Villano, L., Jung, T.S., Slama, H.P., and Oakley, M.P. </b>(2012). Fat dynamics and development of body condition indices for harvested populations of wolverine Gulo gulo. Wildlife Biology. 18: 35-45.</p>
+            <p>32. <b>Rosas, F.C.W., Zuanon, J.A.S., and Carter, S.K. </b> (1999). Feeding Ecology of the Giant Otter, Pteronura brasiliensis. Biotropica. 31(3), 502-506.</p>
+            <p>33. <b>Silva, E.R., Rosas, F.C.W., and Zuanon, J. </b>(2013). Feeding ecology of the giant otter (Pteronura brasiliensis) and the Neotropical otter (Lontra Longicaudis) in Jau National Park, Amazon, Brazil. Journ. Nat. Hist. 48 (7-8), 465-479. </p>
+            <p>34. <b>Stevens, C.E. and Hume, I.D. </b>(1998). Contributions of microbes in vertebrate gastrointestinal tract to production and conservation of nutrients. Physiological Reviews. 78 (2): 393-427. </p>
+            <p>35. <b>Stevens, C.E., and Hume, I.D. </b>(2004). Carnivora. Comparative Physiology of the Vertebrate Digestive System (Second Edition). Pp. 58-69. Cambridge University Press. </p>
+            <p>36. <b>Thometz, N.M., Tinker, M.T., Staedler, M.M., Kayer, K.A., a nd Williams, T.M. </b>(2014). Energetic demands of immature sea otters from birth to weaning: implications for maternal costs, reproductive behaviour and population-level trends. J. Exp. Bio. 217 (10): 2053-2061. </p>
+            <p>37. <b>Williams, T.M. </b>(1988). Swimming by sea otters: adaptations for low energetic cost locomotion. J. Comp. Physiol. 164: 815-824.</p>
+            <p>38. <b>Young, J.K., Hudgens, B., and Garcelon, D.K. </b>(2012). Estimates of Energy and Prey Requirements of Wolverines. 86 (3): 221-229. </p>
+            <p>39. <b>Zeller, F. </b>(1960). Notes on the giant otter (pteronura brasiliensis) at the Cologne Zoo. Int. Zoo. Yearbook.2: 81.  </p>
+            <p>40. <b>Zharova, G.K. and Naumova, E.I. </b>(2001). Structural and Functional adaptations of the Sable Digestive Tract to Plant Food. 3: 421-424.</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+  <footer class="container-fluid text-center">
+    <p><font color="white"><font></p>
+  </footer>
+
+</body>
+</html>
